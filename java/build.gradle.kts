@@ -6,11 +6,11 @@ plugins {
     signing
 }
 
-group = "org.rationalityfrontline"
+group = "org.finatech"
 version = "6.6.1_P1-1.0.1"
 val NAME = project.name
 val DESC = "Java wrapper for CTP"
-val GITHUB_REPO = "ktrader-tech/jctp"
+val GITHUB_REPO = "dongdong-2016/jctp"
 
 repositories {
     mavenCentral()
@@ -82,16 +82,16 @@ publishing {
                 }
                 developers {
                     developer {
-                        name.set("RationalityFrontline")
-                        email.set("rationalityfrontline@gmail.com")
-                        organization.set("ktrader-tech")
-                        organizationUrl.set("https://github.com/ktrader-tech")
+                        name.set("xuedong.zhang")
+                        email.set("1206679965@qq.com")
+                        organization.set("org.finatech")
+                        organizationUrl.set("https://github.com/dongdong-2016")
                     }
                 }
                 scm {
                     connection.set("scm:git:git://github.com/$GITHUB_REPO.git")
                     developerConnection.set("scm:git:ssh://github.com:$GITHUB_REPO.git")
-                    url.set("https://github.com/$GITHUB_REPO/tree/master")
+                    url.set("https://github.com/dongdong-2016/jctp/edit/jdk8")
                 }
             }
         }
