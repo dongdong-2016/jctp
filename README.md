@@ -82,7 +82,7 @@ dependencies {
 1. 安装 [SWIG](http://www.swig.org/download.html) 4.0.2 并将其添加至环境变量中
 2. 安装 [CMake](https://cmake.org/download/) > 3.16 并将其添加至环境变量中
 3. 安装 C++ 编译器（ Windows 下是 [msvc](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)，Linux 下是 [gcc/g++](https://gcc.gnu.org/)）
-4. 安装 [JDK 14](https://jdk.java.net/14/) 并将其添加至环境变量中
+4. 安装 [JDK 8](https://jdk.java.net/java-se-ri/8-MR3) 并将其添加至环境变量中
 
 **Windows**
 
